@@ -3,6 +3,7 @@ import {
 	ExclamationTriangleIcon,
 	SunIcon,
 } from '@heroicons/react/24/outline';
+import NewChat from '../components/NewChat';
 
 function HomePage() {
 	return (
@@ -63,6 +64,9 @@ function HomePage() {
 						</p>
 					</div>
 				</div>
+			</div>
+			<div className='inline xs:hidden'>
+				<NewChat />
 			</div>
 		</div>
 	);
